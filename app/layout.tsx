@@ -3,7 +3,7 @@ import './globals.css';
 import { Noto_Sans_KR } from 'next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
-config.autoAddCss = false; /* eslint-disable import/first */
+config.autoAddCss = false;
 
 const notoSans = Noto_Sans_KR({ subsets: ['latin'] });
 

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faBirthdayCake, faHome, faMailBulk, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faBirthdayCake, faHome, faMailBulk, faGraduationCap, faBook } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Profile() {
 	return (
@@ -15,6 +16,8 @@ export default function Profile() {
 						<FontAwesomeIcon icon={faHome} size='2xl' />
 						<FontAwesomeIcon icon={faMailBulk} size='2xl' />
 						<FontAwesomeIcon icon={faGraduationCap} size='2xl' />
+						<FontAwesomeIcon icon={faGithub} size='2xl' />
+						<FontAwesomeIcon icon={faBook} size='2xl' />
 					</div>
 					<div className='flex flex-col gap-8'>
 						<span className='text-2xl'>임 채 은</span>
