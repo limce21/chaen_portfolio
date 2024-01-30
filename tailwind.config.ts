@@ -8,8 +8,15 @@ const config: Config = {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
 			},
+			width: {
+				'110': '27.5rem'
+			},
+			height: {
+				'150': '36.6rem'
+			},
 			colors: {
 				primary: '#0D1D55',
+				secondary: '#3F496A',
 				light: '#FFFFFF',
 				dark: '#131313'
 			},
