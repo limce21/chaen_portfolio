@@ -19,6 +19,12 @@ const config: Config = {
 			fontFamily: {
 				title: ['argelha'],
 				main: ['felix']
+			},
+			dropShadow: {
+				text: '2px 2px 2px rgba(0, 0, 0, 0.4)'
+			},
+			boxShadow: {
+				box: '2px 2px 4px rgba(0, 0, 0, 0.4)'
 			}
 		}
 	},
